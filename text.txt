@@ -1,0 +1,35 @@
+// starting with the mongoDB
+// installed and added the services of monodb to login items like docker you can check it on general
+        // No-SQL Document Based Database
+        Strong Support for Aggregation Pipes
+        Works on BSON format
+        Best for Node Applications
+
+
+// It has  Collection - "users"  . users are just example of Collection
+and this collections consists document there can be as many document as possbile (you can think it as an object ).
+
+
+** the following are some basic commands
+> show dbs
+> use <db_name>
+> show collections
+> db.coll.find()
+> db.coll.insert()
+
+
+//schema - define the structure ( we basically define the schema of  our db)
+// based on schema we create model (schema - model)
+And we use model to do crud operations.
+
+
+// And to use mongoDB we need to install one pacakge named as mongoose
+
+
+//MVC( model view controller)
+client jo hoga wo route ko call karega 
+route controller ko call karega
+Controller jo hai wo model pe manipulation karega
+
+Model se kaise data read karke views me dalenge
+

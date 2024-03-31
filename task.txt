@@ -1,0 +1,35 @@
+we are designing an restful api -JSON
+Best practices of restful api is  
+    ->follow the client server architecture
+    ->respect the http methods(get , post,put ,patch, delete,)
+
+
+what are the task we are going to perform
+
+GET "/users" -> it will list all the users (SSR means server side rendered page)
+GET "/api/users" -> it will list all the users(this will return the json response)
+
+GET "/users/id -> it will fetch out the user detail of the respective id
+
+POST "/users"  -> create the new user
+
+PATCH "/users/id" -> update the details of the user
+
+DELETE "/users/id" -> delete the user from the database
+
+
+// its always good to create a hybrid server means it will render various kind of devices 
+
+//Dynamic path 
+GET "/users/id 
+so id should be dynamic so we can use :id this will mark the id as dynmaic and we can pass any value in route
+
+//now Exploring about the middle wares in express
+/*  
+    we can say these are the mid-mans which can do processing on the req 
+        -> they can send it forward 
+        -> or they can end the response.
+
+    //we can have multiple middle wares in our codebase.
+
+*/
